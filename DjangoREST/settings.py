@@ -17,6 +17,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['https://desolate-meadow-48761.herokuapp.com/']
 
+CORS_ORIGIN_ALLOW_ALL = True
+
+
 
 
 CORS_ALLOWED_ORIGINS = (
