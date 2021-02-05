@@ -11,6 +11,7 @@ from rest_framework.filters import SearchFilter
 class AllBranches(generics.ListAPIView):
     queryset = Bank.objects.all()
     serializer_class = BankSerializer
+    pagination_class = None
 
 class BankViewByBranch(generics.ListAPIView):
     queryset = Bank.objects.all()
