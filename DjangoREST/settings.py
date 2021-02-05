@@ -96,12 +96,22 @@ WSGI_APPLICATION = "DjangoREST.wsgi.application"
 
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'postgres',
+    #     'USER': 'postgres',
+    #     'PASSWORD': '0670',
+    #     'HOST': '',
+    #     'PORT': '5432',
+
+    # }
+
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': '0670',
-        'HOST': '',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'bm0cgede4wfd3jyypoea',
+        'USER': 'ufb1ocuqyxwbwppa5qjr',
+        'PASSWORD': '6p72bOiKJmAOHabpLpkN',
+        'HOST': 'bm0cgede4wfd3jyypoea-postgresql.services.clever-cloud.com',
         'PORT': '5432',
 
     }
