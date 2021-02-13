@@ -7,13 +7,13 @@ The app uses powerful Django rest-framework to create APIs.
 
   Autocomplete API to return possible matches based on the branch name ordered by IFSC code (ascending order) with limit and offset.
 
-  Eg: /api/branches/autocomplete?search=**RTGS**&limit=3&offset=0
+  Eg: /api/autocomplete?search=**RTGS**&limit=3&offset=0
   
 **Endpoint 2**: /api/branches?search="**_query_**"
 
 Search API to return possible matches across all columns and all rows, ordered by IFSC code (ascending order) with limit and offset.
 
-  Eg: /api/branches/branches?search=**Bangalore**&limit=3&offset=0
+  Eg: /api/branches?search=**Bangalore**&limit=3&offset=0
   
 ## Hosted URLs
 
