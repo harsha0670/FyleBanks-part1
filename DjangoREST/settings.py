@@ -39,9 +39,9 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
     'PAGE_SIZE': 10,
 }
-REST_FRAMEWORK = {
-    'SEARCH_PARAM': 'q',
-}
+# REST_FRAMEWORK = {
+#     'SEARCH_PARAM': 'q',
+# }
 
 INSTALLED_APPS = [
 
