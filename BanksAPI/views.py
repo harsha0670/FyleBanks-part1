@@ -7,15 +7,11 @@ from rest_framework.pagination import LimitOffsetPagination
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.filters import SearchFilter
 
-class UnlimitedPagination(PageNumberPagination):
-    page_size = 0
+
 
 # Create your views here.
 
-class AllBranches(generics.ListAPIView):
-    queryset = Bank.objects.all()
-    serializer_class = BankSerializer
-    pagination_class = UnlimitedPagination
+
 
 class BankViewByBranch(generics.ListAPIView):
     queryset = Bank.objects.all()
