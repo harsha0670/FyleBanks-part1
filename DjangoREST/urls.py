@@ -10,7 +10,7 @@ from BanksAPI.views import BankViewBySearch
 
 urlpatterns = [
     # path('api', AllBranches.as_view()),
-    path('api/autocomplete', BankViewByBranch.as_view()),
+    path('api/branches/autocomplete', BankViewByBranch.as_view()),
     path('api/branches',BankViewBySearch.as_view()),
     path('admin/', admin.site.urls),
 ]

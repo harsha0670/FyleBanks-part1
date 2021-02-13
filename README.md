@@ -3,11 +3,11 @@
 A Django App that is a REST service which can fetch bank details, using the data given in the API’s query parameters.
 The app uses powerful Django rest-framework to create APIs.
 
-**Endpoint 1**: /api/autocomplete?search="**_query_**"
+**Endpoint 1**: /api/branches/autocomplete?search="**_query_**"
 
   Autocomplete API to return possible matches based on the branch name ordered by IFSC code (ascending order) with limit and offset.
 
-  Eg: /api/autocomplete?search=**RTGS**&limit=3&offset=0
+  Eg: /api/branches/autocomplete?search=**RTGS**&limit=3&offset=0
   
 **Endpoint 2**: /api/branches?search="**_query_**"
 
