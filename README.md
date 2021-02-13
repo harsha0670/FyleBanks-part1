@@ -1,8 +1,17 @@
-# Python: Getting Started
+# Banks - REST Api
 
-A barebones Django app, which can easily be deployed to Heroku.
+A Django App that is a REST service which can fetch bank details, using the data given in the API’s query parameters.
+The app uses powerful Django rest-framework to create APIs.
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
+Endpoint 1: /api/branches/autocomplete?search=<your-query>
+  Autocomplete API to return possible matches based on the branch name ordered by IFSC code (ascending order) with limit and offset.
+  Eg: /api/branches/autocomplete?search=RTGS&limit=3&offset=0
+  
+Endpoint 1: /api/branches/branches?search=<your-query>
+Search API to return possible matches across all columns and all rows, ordered by IFSC code (ascending order) with limit and offset.
+  Eg: /api/branches/branches?search=Bangalore&limit=3&offset=0
+  
+
 
 ## Running Locally
 
