@@ -17,7 +17,7 @@ Search API to return possible matches across all columns and all rows, ordered b
   
 ## Hosted URLs
 
-**Url 1** https://desolate-meadow-48761.herokuapp.com/api/autocomplete
+**Url 1** https://desolate-meadow-48761.herokuapp.com/api/branches/autocomplete
 
 **Url 2** https://desolate-meadow-48761.herokuapp.com/api/branches
 
